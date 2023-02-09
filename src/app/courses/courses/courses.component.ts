@@ -14,7 +14,7 @@ import { CoursesService } from './../services/courses.service';
 export class CoursesComponent implements OnInit {
 
   courses$: Observable<Course[]>;
-  displayedColumns= ['_id', 'name', 'category', 'actions'];
+  displayedColumns= ['name', 'category', 'actions'];
 
   constructor(
     public dialog: MatDialog,
